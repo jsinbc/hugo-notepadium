@@ -1,7 +1,7 @@
-baseURL = "https://example.com"
-title = "Notepadium"
+baseURL = "https://stoneground.ca"
+title = "stoneground"
 theme = "hugo-notepadium"
-copyright = "©2020 Notepadium."
+copyright = "©2020 stoneground"
 
 languageCode = "en"  # for the RSS generation
 defaultContentLanguage = "en"
@@ -11,7 +11,7 @@ hasCJKLanguage = true
 enableRobotsTXT = true
 
 # Enable Disqus
-#disqusShortname = "XXX"
+#disqusShortname = "stoneground-1"
 
 # Google Analytics
 #googleAnalytics = "UA-123-45"
@@ -47,13 +47,9 @@ theme = "xcode"
 darkTheme = "xcode-dark"
 
 [params.nav]
-showCategories = true       # /categories/
+showCategories = false       # /categories/
 showTags = true             # /tags/
 
 [[params.nav.custom]]
 title = "About"
 url = "/about/"
-
-[[params.nav.custom]]
-title = "Hugo"
-url = "https://gohugo.io/"
