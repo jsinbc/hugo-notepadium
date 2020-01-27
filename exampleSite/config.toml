@@ -1,7 +1,7 @@
-baseURL = "https://example.com"
-title = "Notepadium"
+baseURL = "https:stoneground.ca"
+title = "stoneground"
 theme = "hugo-notepadium"
-copyright = "©2020 Notepadium."
+copyright = "©2020 stoneground"
 
 languageCode = "en"  # for the RSS generation
 defaultContentLanguage = "en"
@@ -11,7 +11,7 @@ hasCJKLanguage = true
 enableRobotsTXT = true
 
 # Enable Disqus
-#disqusShortname = "XXX"
+#disqusShortname = "stoneground-1"
 
 # Google Analytics
 #googleAnalytics = "UA-123-45"
@@ -25,10 +25,10 @@ unsafe = true  # enable raw HTML in Markdown
 
 [params]
 style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
-dateFormat = "Jan 02, 2006"  # if unset, default is "2006-01-02"
+dateFormat = ""  # if unset, default is "2006-01-02"
 readingTime = false  # show reading time after article date
 logo = ""
-slogan = "100% JavaScript-free"
+slogan = "This and That"
 #license = "<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>."
 
 [params.assets]
@@ -47,13 +47,9 @@ theme = "xcode"
 darkTheme = "xcode-dark"
 
 [params.nav]
-showCategories = true       # /categories/
+showCategories = false       # /categories/
 showTags = true             # /tags/
 
 [[params.nav.custom]]
 title = "About"
 url = "/about/"
-
-[[params.nav.custom]]
-title = "Hugo"
-url = "https://gohugo.io/"

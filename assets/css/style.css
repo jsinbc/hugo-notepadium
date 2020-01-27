@@ -4,12 +4,9 @@
 }
 
 html {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', 'Segoe UI', 
-                Ubuntu, Roboto, Oxygen, Cantarell, 'Fira Sans', 'Droid Sans',
-                'Helvetica Neue', Helvetica, Arial, Verdana, 'Lucida Grande', 
-                sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: arial, sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.7;
 }
 
@@ -203,7 +200,7 @@ acronym {
 .base-body {
   display: block;
   margin: -1px auto;
-  max-width: 830px;
+  max-width: 640px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
 }
@@ -211,7 +208,7 @@ acronym {
 .site.header {
   padding-top: 20px;
   padding-bottom: 20px;
-  min-height: 64px;
+  min-height: 164px;
 }
 
 .header.wrap {
@@ -346,21 +343,21 @@ acronym {
 
 .note.title,
 .site.name {
-  font-size: 17px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.note.date {
-  color: #999;
+.site.name {
+  font-size: 24px;
 }
 
 .note.content {
-  font-size: 15px;
+  color:#555;
 }
 
 .mldr {
-  opacity: .5;
   font-size: 85%;
+  color:#007aff;
 }
 
 .note.title,
@@ -369,6 +366,11 @@ acronym {
 .note.imgs,
 .note.labels {
   margin: 5px 0;
+}
+
+.note.date {
+  color: #999;
+  margin-top:-8px;
 }
 
 .note.imgs {
@@ -488,7 +490,7 @@ acronym {
 
 .note.content,
 .article.markdown-body {
-  color: #333;
+  color: #555;
 }
 
 .article.markdown-body {
