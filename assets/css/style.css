@@ -15,7 +15,7 @@ html {
 
 body {
   display: block;
-  color: #212121;
+  color: rgba(0,0,0,.85);
   background-color: #fff;
 
   word-break: normal;
@@ -172,6 +172,9 @@ acronym {
 
 .image-container {
   text-align: center;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  background-color: rgba(0, 29, 59, .02);
 }
 
 .image-container .link {
@@ -187,17 +190,15 @@ acronym {
 }
 
 .image-container .img {
-  border-radius: 8px;
-  border: 1px solid #e6e6e6;
+  width: 100%;
 }
 
 .image-container .title {
   font-size: 14px;
   text-align: initial;
-  color: #586069;
+  color: #4a5560;
   min-height: 22px;
-  padding: 10px 5px 5px;
-  border-bottom: 1px solid #e6e6e6;
+  padding: 10px 5px;
 }
 
 .base-body {
@@ -255,7 +256,7 @@ acronym {
 }
 
 .site.name {
-  color: #212121;
+  color: rgba(0,0,0,.85);
 }
 
 .site.slogan {
@@ -267,7 +268,7 @@ acronym {
 .site.slogan .title {
   display: inline-block;
   text-align: initial;
-  color: #586069;
+  color: #4a5560;
   min-height: 22px;
   padding: 10px 10px 6px;
   border-bottom: 1px solid #e6e6e6;
@@ -284,7 +285,7 @@ acronym {
 
 .footer {
   font-size: 12px;
-  color: #586069;
+  color: #4a5560;
   margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -318,7 +319,7 @@ acronym {
 .note.list .item {
   width: 100%;
   margin: 5px 0 10px 0;
-  padding: 0;
+  padding: 20px 0;
   border-bottom: 1px solid #e6e6e6;
 }
 
@@ -335,7 +336,7 @@ acronym {
 }
 
 .note {
-  color: #212121;
+  color: rgba(0,0,0,.85);
   display: block;
   text-decoration: none;
 }
@@ -351,7 +352,7 @@ acronym {
 }
 
 .note.date {
-  color: #999;
+  color: #4a5560;
 }
 
 .note.content {
@@ -392,7 +393,7 @@ acronym {
 }
 
 .article.date {
-  color: #999;
+  color: #4a5560;
   margin-top: 20px;
 }
 
@@ -488,7 +489,7 @@ acronym {
 
 .note.content,
 .article.markdown-body {
-  color: #333;
+  color: rgba(0,0,0,.85);
 }
 
 .article.markdown-body {
@@ -520,8 +521,8 @@ acronym {
   font-size: 95%;
   padding: 10px;
   border-radius: 2px;
-  border-left: 5px solid #fc8383;
-  background-color: rgba(0, 29, 59, .02);
+  border-left: 5px solid #75a4f8;
+  background-color: rgba(117, 164, 248, .08);
 }
 
 .article.markdown-body q::before,
