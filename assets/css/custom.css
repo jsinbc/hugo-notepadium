@@ -1,3 +1,25 @@
 .base-body {
 	max-width:640px;
 }
+.site.header {
+	min-height:160px;
+}
+.note.title, .site.name {
+	font-size:20px;
+	font-weight:400;
+}
+.note.date {
+	margin-top:-6px;
+}
+.note.list .item {
+	margin:0 0 10px 0;
+	padding:3px 0 20px 0;
+}
+.site.name {
+	font-size:28px;
+}
+.mldr {
+	opacity:1;
+	font-size:95%;
+	color:#007aff;
+}
