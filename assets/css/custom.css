@@ -1,5 +1,9 @@
 .article.date {
 	margin-top:0;
+	padding-bottom:2px;
+}
+.article.header {
+	border-bottom: 1px solid #c6c6c6;
 }
 .base-body {
 	max-width:640px;
