@@ -28,11 +28,11 @@ style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: bas
 dateFormat = "Jan 02, 2006"  # if unset, default is "2006-01-02"
 readingTime = false  # show reading time after article date
 logo = ""
-slogan = "100% JavaScript-free"
+slogan = "This and That"
 #license = "<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>."
 
 [params.assets]
-css = ["css/fonts.css"]
+css = ["css/fonts.css","css/custom.css"]
 
 [params.comments]
 enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
@@ -51,5 +51,3 @@ showCategories = false       # /categories/
 showTags = true             # /tags/
 
 [[params.nav.custom]]
-title = "About"
-url = "/about/"

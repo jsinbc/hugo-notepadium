@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
 .site.header {
 	min-height:160px;
 }
+.article.navigation .link {
+	font-weight: 400;
+	font-size: 90%;
+}
 .note.title, .site.name {
 	font-size:20px;
 	font-weight:400;
