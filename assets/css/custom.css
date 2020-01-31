@@ -1,5 +1,5 @@
 html {
-	font-family:arial,sans-serif;
+	font-family:Georgia,serif;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size:.97rem;
 }
 .note.title, .site.name {
-	font-size:20px;
+	font-size:22px;
 	font-weight:400;
 }
 .note.date {
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding:3px 0 20px 0;
 }
 .site.name {
-	font-size:28px;
+	font-size:30px;
 }
 .mldr {
 	opacity:1;
