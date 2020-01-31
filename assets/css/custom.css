@@ -1,3 +1,7 @@
+html {
+	font-family:arial,sans-serif;
+}
+
 .article.date {
 	margin-top:0;
 	padding-bottom:2px;
@@ -7,6 +11,9 @@
 }
 .base-body {
 	max-width:640px;
+}
+.article.markdown-body blockquote ul {
+	margin-top:-10px;
 }
 body {
 	hyphens: none;
@@ -24,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	font-size: 90%;
 }
-.note.content {
+.note.content, .article.markdown-body {
 	font-size:97%;
 }
 .note.title, .site.name {
