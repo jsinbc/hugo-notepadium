@@ -1,5 +1,6 @@
 html {
 	font-family:arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 .article.date {
@@ -32,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 90%;
 }
 .note.content, .article.markdown-body {
-	font-size:97%;
+	font-size:.97rem;
 }
 .note.title, .site.name {
 	font-size:20px;
