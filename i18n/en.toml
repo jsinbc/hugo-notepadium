@@ -9,7 +9,7 @@ other = " • {{ .Count }} minutes to read"
 other = "more"
 
 [Categories]
-other = "Categories"
+other = "Climate Science 101"
 
 [Tags]
 other = "Tags"
