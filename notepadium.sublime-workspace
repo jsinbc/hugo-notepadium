@@ -159,6 +159,14 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "<p>GitHub, Netlify and Hugo are a potent combination for publishing a personal blog. Getting things setup so they work smoothly can be challenging if you&#8217;re new to the services. Strategies to address some of the issues I faced follow.</p>\n\n<!--more-->\n\n<ol>\n<li><p>If you&#8217;re going to use a third party theme you need to install it as a git submodule. If you think you might want to change anything about the theme then you should fork the original theme to your repository and then use the forked submodule in your install.</p></li>\n<li><p>The build command that worked for me was &#8220;hugo &#8211;gc &#8211;minify -b $URL&#8221;.</p></li>\n<li>Disqus comments are built in to Hugo. But there are issues with Disqus:\n\n<ul>\n<li>the number of requests and page load size increases dramatically;</li>\n<li>Disqus included sponsored comments and affiliate links to links in the comments;</li>\n<li>Disqus tracks those who comment.</li>\n</ul>\n\n<p>There are alternatives to Disqus which don&#8217;t have those problems. Two of which I&#8217;m aware are <a href=\"https://getreplybox.com\">ReplyBox</a> and <a href=\"https://commento.io\">Commento</a>. Installing either one of them only required replacing the code in the comments partial in the theme I&#8217;m using.</p></li>\n</ol>\n\n<p>Works well but without any consequential experience with any of the services implementation took time.</p>",
+			"settings":
+			{
+				"buffer_size": 1395,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -290,12 +298,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/home/stoneground/themes/hugo-notepadium",
-		"/Users/home/stoneground/themes/hugo-notepadium/exampleSite"
+		"/Users/home/stoneground/themes/hugo-notepadium"
 	],
 	"file_history":
 	[
 		"/Users/home/stoneground/config.toml",
+		"/Users/home/stoneground/themes/hugo-notepadium/layouts/partials/article-comments.html",
 		"/Users/home/stoneground/themes/hugo-notepadium/assets/css/custom.css",
 		"/Users/home/stoneground/themes/hugo-notepadium/layouts/partials/footer.html",
 		"/Users/home/stoneground/public/tags/page/1/index.html",
@@ -421,8 +429,7 @@
 		"/Applications/MAMP/htdocs/stroneground/wp-content/themes/penscratch/single.php",
 		"/Applications/MAMP/htdocs/stroneground/wp-content/themes/penscratch/content-single.php",
 		"/Applications/MAMP/htdocs/skeenandp/sites/default/settings.php",
-		"/Applications/MAMP/htdocs/skeenandp/sites/all/themes/corporateclean/color/colors.css",
-		"/Applications/MAMP/htdocs/skeenandp/sites/all/themes/corporateclean/style.css"
+		"/Applications/MAMP/htdocs/skeenandp/sites/all/themes/corporateclean/color/colors.css"
 	],
 	"find":
 	{
@@ -459,8 +466,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1395,
+								1395
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

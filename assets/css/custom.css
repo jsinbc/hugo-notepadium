@@ -13,6 +13,11 @@ html {
 .base-body {
 	max-width:640px;
 }
+.article.markdown-body li+li {
+	margin-top:10px;
+}
+.article.markdown-body ol,
+.article.markdown-body ul
 .article.markdown-body blockquote ul {
 	margin-top:-10px;
 }
