@@ -21,6 +21,11 @@ html {
 .article.markdown-body blockquote ul {
 	margin-top:-10px;
 }
+.article.markdown-body>:first-child,
+.article.markdown-body li>:first-child,
+.article.markdown-body blockquote>:first-child {
+	margin-top:10px;
+}
 body {
 	hyphens: none;
 	-webkit-hyphens: none;
