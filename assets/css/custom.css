@@ -26,6 +26,10 @@ html {
 .article.markdown-body blockquote>:first-child {
 	margin-top:10px;
 }
+.article.markdown-body hr {
+	border-top-style: solid;
+	border-top-color: #c6c6c6;
+}
 body {
 	hyphens: none;
 	-webkit-hyphens: none;
