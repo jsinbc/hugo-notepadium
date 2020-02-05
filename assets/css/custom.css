@@ -1,6 +1,6 @@
 html {
 	font-family:Georgia,serif;
-	font-size:1rem;
+	font-size:1.05rem;
 }
 
 .article.date {
@@ -43,9 +43,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 90%;
 }
 .note.content, .article.markdown-body {
+	font-size:1.05rem;
 }
 .note.title, .site.name {
-	font-size:22px;
+	font-size:1.3rem;
 	font-weight:400;
 }
 .note.date {
@@ -57,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding:3px 0 20px 0;
 }
 .site.name {
-	font-size:30px;
+	font-size:1.9rem;
 }
 .mldr {
 	opacity:1;
